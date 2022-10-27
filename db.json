@@ -169,5 +169,93 @@
       },
       "message": "Success",
       "success": true
+  },
+  "processgroup-item": {
+      "data": {
+          "journalandsteps": {
+              "$etag": "1",
+              "accountingPeriodName": "Jun-21",
+              "conversionRateTypeCode": "Corporate",
+              "isFirstJournalFlag": "N",
+              "journalCategory": "Allocations",
+              "journalDefinitionDescription": "journal-111111",
+              "journalDefinitionId": 85,
+              "journalDefinitionName": "journal-111111",
+              "needPosting": "Y",
+              "needReview": "N",
+              "offsetCurrencyCode": "USD",
+              "offsetLedgerId": 1225,
+              "referenceLedgerId": 1225,
+              "ruleId": 1030,
+              "sequenceNumber": 4,
+              "steps": {
+                  "items": [
+                      {
+                          "$etag": "1",
+                          "allocationBasis": "equal",
+                          "isFirstStepFlag": "N",
+                          "journalDefinitionId": 85,
+                          "ruleId": 1030,
+                          "runsAfter": 40,
+                          "stepDescription": "Mixed Rule Step 36",
+                          "stepId": 36,
+                          "stepName": "Mixed Rule Step 36",
+                          "stepTypeCode": "ALLOCATION"
+                      },
+                      {
+                          "$etag": "1",
+                          "allocationBasis": "equal",
+                          "isFirstStepFlag": "N",
+                          "journalDefinitionId": 85,
+                          "ruleId": 1030,
+                          "runsAfter": 40,
+                          "stepDescription": "Mixed Rule Step 37",
+                          "stepId": 37,
+                          "stepName": "Mixed Rule Step 37",
+                          "stepTypeCode": "ALLOCATION"
+                      },
+                      {
+                          "$etag": "1",
+                          "allocationBasis": "equal",
+                          "isFirstStepFlag": "N",
+                          "journalDefinitionId": 85,
+                          "ruleId": 1030,
+                          "runsAfter": 40,
+                          "stepDescription": "Mixed Rule Step 38",
+                          "stepId": 38,
+                          "stepName": "Mixed Rule Step 38",
+                          "stepTypeCode": "ALLOCATION"
+                      },
+                      {
+                          "$etag": "1",
+                          "allocationBasis": "equal",
+                          "isFirstStepFlag": "N",
+                          "journalDefinitionId": 85,
+                          "ruleId": 1030,
+                          "runsAfter": 40,
+                          "stepDescription": "Mixed Rule Step 39",
+                          "stepId": 39,
+                          "stepName": "Mixed Rule Step 39",
+                          "stepTypeCode": "ALLOCATION"
+                      },
+                      {
+                          "$etag": "1",
+                          "allocationBasis": "equal",
+                          "isFirstStepFlag": "Y",
+                          "journalDefinitionId": 85,
+                          "ruleId": 1030,
+                          "stepDescription": "Mixed Rule Step 40",
+                          "stepId": 40,
+                          "stepName": "Mixed Rule Step 40",
+                          "stepTypeCode": "ALLOCATION"
+                      }
+                  ]
+              },
+              "targetCurrencyCode": "USD",
+              "targetLedgerId": 1225
+          }
+      },
+      "message": "Success",
+      "success": true
   }
 }
